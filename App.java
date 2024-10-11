@@ -12,7 +12,7 @@ public class App {
 	System.out.println("Shuffling the Deck.....");
 	System.out.println("Play War!!");
 	
-	for (int round = 1; round < rounds; round++) {
+	for (int round = 1; round <= rounds; round++) {
 		System.out.println("Round " + (round));
 	
 	deck.shuffle();
